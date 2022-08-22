@@ -1,0 +1,32 @@
+{
+  "name": "lql",
+  "version": "1.0.0",
+  "description": "League-Query-Language",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && NODE_ENV=production babel lib --out-dir dist --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkIntaqt/LQL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DarkIntaqt/LQL/issues"
+  },
+  "homepage": "https://github.com/DarkIntaqt/LQL#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/preset-env": "^7.18.10"
+  },
+  "peerDependencies": {
+    "core-js": "^3.24.1"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}

@@ -1,0 +1,2 @@
+# LQL
+League-Query-Language

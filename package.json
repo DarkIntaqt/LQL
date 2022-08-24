@@ -30,6 +30,6 @@
     "README.md"
   ],
   "dependencies": {
-    "shieldbow": "^1.4.0"
+    "teemojs": "1.8.0"
   }
 }
